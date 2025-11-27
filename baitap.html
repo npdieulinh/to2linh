@@ -4,14 +4,64 @@
     <meta charset="UTF-8">
     <title>Bài Tập - Nguyễn Phương Diệu Linh</title>
     <style>
-        body { font-family: Arial; padding: 20px; background: #f2f2f2; }
-        h1 { color: #27ae60; }
-        ul { font-size: 20px; }
-        a { color: #2980b9; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+    body {
+        font-family: 'Poppins', Arial;
+        padding: 20px;
+        background: linear-gradient(135deg, #ffe6f2, #e6f7ff);
+        min-height: 100vh;
+    }
+
+    .container {
+        background: white;
+        padding: 25px;
+        max-width: 500px;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        animation: fadeIn 0.7s ease;
+    }
+
+    h1 {
+        color: #ff6699;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        background: #fff0f5;
+        padding: 15px;
+        margin-bottom: 12px;
+        border-radius: 12px;
+        transition: 0.3s;
+        border-left: 6px solid #ff99cc;
+    }
+
+    li:hover {
+        background: #ffe6f2;
+        transform: translateX(5px);
+    }
+
+    a {
+        color: #d63384;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
 </head>
 <body>
+    <div class="container">
 
     <h1>Bài Tập của Nguyễn Phương Diệu Linh</h1>
 
@@ -20,6 +70,7 @@
         <li><a href="Thongtin.html">Thông tin CLB</a></li>
         <li><a href="Lich.html"> Lịch hoạt động CLB</a></li>
     </ul>
+    </div>
 
 </body>
 </html>
